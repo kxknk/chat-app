@@ -18,4 +18,3 @@ To pull the `easy-chat` Docker image from the user `kumarank156`, run:
 docker pull kumarank156/easy-chat
 
 docker-compose up
-

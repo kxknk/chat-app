@@ -7,13 +7,13 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Set the custom scrollbar for the whole web application */
+
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--primary-color-light) transparent;
 }
 
-/* For WebKit-based browsers (Chrome, Safari, etc.) */
+
 *::-webkit-scrollbar {
   width: 8px;
 }
