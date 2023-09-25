@@ -19,4 +19,3 @@ docker pull kumarank156/easy-chat
 
 docker-compose up
 
-```bash
