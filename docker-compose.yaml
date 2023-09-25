@@ -6,8 +6,9 @@ services:
       dockerfile: Dockerfile
     ports:
       - "3000:3000"
-    image: easy-chat
+    image: kumarank156/easy-chat
     depends_on:
       - redis
   redis:
-    image: "redis:latest"
+    image: "redi
+    
