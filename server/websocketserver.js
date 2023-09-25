@@ -11,7 +11,7 @@ let clients = [];
 const initializeWebsocketServer = async (server) => {
   redisClient = redis.createClient({
     socket: {
-      host: "redis",
+      host: process.env.REDIS_HOST,
       port: 6379,
     },
   });
