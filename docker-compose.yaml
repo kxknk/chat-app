@@ -10,5 +10,5 @@ services:
     depends_on:
       - redis
   redis:
-    image: "redi
+    image: "redis:latest"
     
